@@ -1,0 +1,12 @@
+Model: ATA SAMSUNG MZ7TE256 (scsi)
+Disk /dev/sda: 31130,233,62
+Sector size (logical/physical): 512B/512B
+BIOS cylinder,head,sector geometry: 31130,255,63.  Each cylinder is 8225kB.
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start       End          File system  Name         Flags
+ 1      0,32,32     63,188,60    fat32        EFI          boot, esp
+ 2      63,188,61   127,122,58                raid-boot    raid
+ 3      127,122,59  31130,223,4               raid-system  raid
+

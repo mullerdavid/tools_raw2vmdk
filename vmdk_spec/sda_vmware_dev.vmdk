@@ -1,0 +1,24 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=fffffffe
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="fullDevice"
+
+# Extent description
+RW 500118192 FLAT "/dev/disk/by-id/ata-SAMSUNG_MZ7TE256HMHP-000L7_S1K7NSAG513791" 0
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.biosCylinders = "31130"
+ddb.geometry.biosHeads = "255"
+ddb.geometry.biosSectors = "63"
+ddb.geometry.cylinders = "31130"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "88fa8a92d0a308ee50553184fffffffe"
+ddb.uuid = "60 00 C2 93 69 c1 e1 b4-90 56 d6 7a 9d 3d 61 2e"
+ddb.virtualHWVersion = "12"

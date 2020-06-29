@@ -1,0 +1,27 @@
+# $Id: vmdk.tpl 28 2010-08-13 15:51:52Z Zapotek $
+#
+# DO NOT remove or edit this file unless you are really
+# sure about what you're doing!
+#
+
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=fffffffe
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="monolithicFlat"
+
+# Extent description
+RW 500118192 FLAT "/media/damuller/218C5446292D7858/sda.dd" 0
+
+# The Disk Data Base
+#DDB
+
+ddb.virtualHWVersion = "7"
+ddb.longContentID = "29075898903f9855853610dffffffffe"
+ddb.uuid = "60 00 C2 91 8e 73 27 62-43 58 3b f8 05 ae 2e a0"
+ddb.geometry.cylinders = "1023"
+ddb.geometry.heads = "254"
+ddb.geometry.sectors = "63"
+ddb.adapterType = "ide"
